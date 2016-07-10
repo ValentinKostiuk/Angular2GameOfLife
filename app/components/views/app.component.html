@@ -1,0 +1,16 @@
+<div class="field-wrapper">
+	<h1>This is Game Of Life</h1>
+	<table>
+		<tr *ngFor="let line of field">
+			<td *ngFor="let cell of line" [ngClass]="{alive: cell.isAlive}">
+				<div class="cell-content"></div>
+			</td>
+		</tr>
+	</table>
+
+	<div class="controls-block">
+		<button (click)="handleStartGame()">Start</button>
+		<button (click)="handleStopGame()">Stop</button>
+		<button (click)="handleRestartGame()">Restart</button>
+	</div>
+</div>
