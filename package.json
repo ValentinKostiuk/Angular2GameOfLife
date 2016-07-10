@@ -1,0 +1,11 @@
+{
+  "name": "es6angular",
+  "version": "1.0.0",
+  "description": "just training",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Valentin Kostiuk",
+  "license": "ISC"
+}
